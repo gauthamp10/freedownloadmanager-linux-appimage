@@ -1,4 +1,4 @@
-# FDM (freedownloadmanager) AppImage for most linux distros.
+# FDM (freedownloadmanager) AppImage for linux distros.
 
 Free Download Manager is a download manager for Windows, macOS, Linux and Android. For linux the company only offer a debian binary.
 
@@ -11,6 +11,8 @@ FDM was initially proprietary software, but was free and open-source software be
  - Arch Linux (Manjaro - 21.0.1)
 
 ### Dependencies
+ - git
+ - wget
  - dpkg
  - dpkg-deb
  - convert (imagemagick)
@@ -22,5 +24,26 @@ FDM was initially proprietary software, but was free and open-source software be
  - strings (binutils)
 
 ### Build Instructions
+```
+ git clone https://github.com/gauthamp10/freedownloadmanager-linux-appimage && cd freedownloadmanager-linux-appimage
+ 
+ wget -c https://github.com/$(wget -q https://github.com/AppImage/pkg2appimage/releases -O - | grep "pkg2appimage-.*-x86_64.AppImage" | head -n 1 | cut -d '"' -f 2)
+ 
+ chmod +x ./pkg2appimage-*.AppImage
+ 
+ ./pkg2appimage-*.AppImage recipes/freedownloadmanager.yml
+ 
+```
 
-Testing ..Will upload soon.
+### __Author__
+
+ **Gautham Prakash**
+ 
+  Other projects: [github.com/gauthamp10](https://github.com/gauthamp10)
+
+  Website: [gauthamp10.github.io](https://gauthamp10.github.io)
+
+
+### __License__  
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
