@@ -31,7 +31,7 @@ FDM was initially proprietary software, but was free and open-source software be
  
  chmod +x ./pkg2appimage-*.AppImage
  
- ./pkg2appimage* recipes/freedownloadmanager.yml
+ ./pkg2appimage-*.AppImage recipes/freedownloadmanager.yml
  
 ```
 ### Screenie
