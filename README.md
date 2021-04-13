@@ -37,7 +37,7 @@ Most of these dependencies are already satisfied if you are running a debian or 
  ./pkg2appimage-*.AppImage recipes/freedownloadmanager.yml
  
 ```
-### Screenie
+### Screenshot
 
 ![screenshot](screenie.png)
 
