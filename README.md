@@ -12,7 +12,7 @@ FDM was initially proprietary software, but was free and open-source software be
 
 ### Dependencies
 
-Most of these dependencies are already satisfied if you are running a debian or ubuntu based distribution. For instance, Manjaro needed strings from (binutils) for compiling the AppImage.
+*Most of these dependencies are already satisfied if you are running a debian or ubuntu based distribution. For instance, Manjaro only needed strings from (binutils) for compiling the AppImage.*
 
  - git
  - wget
