@@ -1,12 +1,6 @@
 #########################################################################################################################
-# I'm not allowed to redistribute freedownloadmanager-.glibc2.14-x86_64.AppImage
-#
-# To make your own AppImage, run the recipe on any of the tested distro.
-#
-# - wget -c https://github.com/$(wget -q https://github.com/AppImage/pkg2appimage/releases -O - | grep "pkg2appimage-.*-x86_64.AppImage" | head -n 1 | cut -d '"' -f 2)
-# - chmod +x ./pkg2appimage-*.AppImage
-# - pkg2appimage recipes/freedownloadermanager.yml
-#  
+# I'm not allowed to redistribute freedownloadmanager.AppImage
+# To make your own AppImage, run the recipe on any distro.
 # Do checkout my projects: https://github.com/gauthamp10
 #########################################################################################################################
 
@@ -16,7 +10,6 @@ binpatch: true
 ingredients:
   script:
     - wget -c "https://dn3.freedownloadmanager.org/6/latest/freedownloadmanager.deb"
-
 
 script:
   - mv opt/freedownloadmanager/* usr/bin/
