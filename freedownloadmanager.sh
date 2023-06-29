@@ -21,5 +21,7 @@ rm ./freedownloadmanager.yml
 wait
 rm ./pkg2appimage-*.AppImage
 wait
+rm -d -r ./freedownloadmanager
+wait
 
 echo "Done!"
