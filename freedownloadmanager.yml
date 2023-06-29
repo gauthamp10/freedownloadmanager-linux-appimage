@@ -17,9 +17,9 @@ script:
   - cat > freedownloadmanager.desktop <<EOF
   - [Desktop Entry]
   - Type=Application
-  - Name=freedownloadmanager
+  - Name=Free Download Manager
   - Icon=icon.png
   - Exec=fdm %u
   - Categories=Network;
-  - Comment=Free Download Manager
+  - Comment=Download accelerator and organizer
   - EOF
