@@ -21,7 +21,7 @@ Most of these dependencies are already satisfied if you are running a Debian or 
 
 ## Instructions
 
-Run `bash <(curl -sSL https://github.com/gauthamp10/freedownloadmanager-linux-appimage/main/freedownloadmanager.sh)` in your terminal.
+Run `bash <(curl -sSL https://raw.githubusercontent.com/gauthamp10/freedownloadmanager-linux-appimage/main/freedownloadmanager.sh)` in your terminal.
 
 ## Author
 
