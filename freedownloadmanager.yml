@@ -18,8 +18,11 @@ script:
   - [Desktop Entry]
   - Type=Application
   - Name=Free Download Manager
-  - Icon=icon.png
+  - Icon=icon
+  - StartupWMClass=Free Download Manager
+  - X-AppImage-Version=6.19.1
   - Exec=fdm %u
+  - Terminal=false
   - Categories=Network;
-  - Comment=Download accelerator and organizer
+  - Comment=Internet Download Manager
   - EOF

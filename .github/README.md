@@ -19,9 +19,13 @@ FDM was initially proprietary software, but was free and open-source software be
 
 Most of these dependencies are already satisfied if you are running a Debian or Ubuntu based desktop Linux distribution. For instance, Manjaro only needed strings from `binutils` to compile the AppImage.
 
+## Current limitations
+
+System integration isn't complete as the app is missing an icon and can't be removed via Appimagelauncher.
+
 ## Instructions
 
-Run `bash <(curl -sSL https://raw.githubusercontent.com/gauthamp10/freedownloadmanager-linux-appimage/main/freedownloadmanager.sh)` in your terminal.
+Run `bash <(curl -sSL https://raw.githubusercontent.com/FanderWasTaken/freedownloadmanager-linux-appimage/main/freedownloadmanager.sh)` in your terminal.
 
 ## Author
 
